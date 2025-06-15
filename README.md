@@ -1,6 +1,6 @@
-# stop_watch
-
-A new Flutter project.
+# TimeLeap (StopWatch)
+Developer "Muhammad Mohtsham Khan"
+A Flutter(Dart) project.
 
 ## Getting Started
 
