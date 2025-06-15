@@ -2,15 +2,18 @@
 Developer "Muhammad Mohtsham Khan"
 A Flutter(Dart) project.
 
-## Getting Started
+## About Application
 
-This project is a starting point for a Flutter application.
+🕒 TimeLeap – A Smart and Stylish Stopwatch App. TimeLeap is a beautifully crafted mobile stopwatch application developed using Flutter, designed for precision, customization, and a seamless user experience. Whether you're tracking workouts, cooking, or timing tasks, TimeLeap offers a clean interface with powerful controls.
 
-A few resources to get you started if this is your first Flutter project:
+🔧 Key Features : 
+  🌓 Light & Dark Mode Toggle – Instantly switch between light and dark themes for better visibility and comfort.
+  🎨 Accent Color Customization – Personalize your experience by selecting your favorite font accent colors.
+  ⏱️ Milliseconds Display Toggle – Easily choose whether to show milliseconds based on your preference or need.
+  ⚡ Responsive & Smooth UI – Built with Flutter's fast rendering and native feel.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+💡 Built With
+  Flutter & Dart
+  State Management (e.g., Provider or any other used)
+  Custom Theme Switcher
+  Modern UI Principles
