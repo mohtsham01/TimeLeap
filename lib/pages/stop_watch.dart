@@ -57,7 +57,7 @@ class _StopWatchPageState extends State<StopWatchPage> {
 
   void _recordLap() {
     setState(() {
-      _laps.add(_stopwatch.elapsed);
+      _laps.insert(0, _stopwatch.elapsed); // Insert at beginning instead of adding to end
     });
   }
 
@@ -214,7 +214,7 @@ class _StopWatchPageState extends State<StopWatchPage> {
                         child: ListView.builder(
                           itemCount: _laps.length,
                           itemBuilder: (context, index) {
-                            final num = index+1;
+                            final num = _laps.length - index;
                             final lapTime = _formatDuration(_laps[index]);
                             return Container(
                               padding: const EdgeInsets.symmetric(
